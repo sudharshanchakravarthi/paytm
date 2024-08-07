@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
-      steps:
-        - name: printing hello
-          run: echo "Hello world welcome to GitHub Actions"
-        - name: printing bye
-          run: echo "Bye!!!!"
+    steps:
+      - name: printing hello
+        run: echo "Hello world welcome to GitHub Actions"
+      - name: printing bye
+        run: echo "Bye!!!!"
